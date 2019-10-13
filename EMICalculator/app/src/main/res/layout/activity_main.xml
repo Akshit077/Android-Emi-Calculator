@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main">
+<TextView
+android:layout_width="200dp"
+android:layout_height="wrap_content"
+android:id="@+id/Price"
+android:textAlignment="center"
+android:layout_marginLeft="100dp"
+android:layout_marginTop="25dp"
+android:text="Enter Product Amount"/>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Et1"
+        android:textAlignment="center"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        android:hint="Enter Price"
+        android:inputType="number"
+        />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Amount"
+        android:textAlignment="center"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="100dp"
+        android:text="Enter Loan Amount"
+        />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Et2"
+        android:textAlignment="center"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="105dp"
+        android:hint="Enter Amount"
+        android:inputType="number"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Time"
+        android:textAlignment="center"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="170dp"
+        android:text="Payback Peroid"/>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Et3"
+        android:textAlignment="center"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="175dp"
+        android:hint="Enter Payback period"
+        android:inputType="number"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Rate"
+        android:textAlignment="center"
+        android:layout_marginTop="240dp"
+        android:text="Rate Of Interest"
+        android:layout_marginLeft="100dp"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Et4"
+        android:textAlignment="center"
+        android:layout_marginTop="245dp"
+        android:layout_marginLeft="100dp"
+        android:hint="Enter Rate Of Interset"
+        android:inputType="number"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/b1"
+        android:text="Calculate"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="100dp"/>
+
+</RelativeLayout>
